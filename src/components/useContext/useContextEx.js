@@ -1,16 +1,16 @@
 import React, { useState, createContext } from "react";
-import Login from "./Login";
-import User from "./User";
+import Log from "./Log";
+import Name from "./Name";
 
 export const AppContext = createContext(null);
 
 function useContextEx() {
-  const [username, setUsername] = useState("");
+  const [name, setName] = useState("");
 
   return (
-    <AppContext.Provider value={{ username, setUsername }}>
+    <AppContext.Provider value={{ name, setName }}>
       <h1>useContext</h1>
-      <User /> <Login />
+      <Name /> <Log />
     </AppContext.Provider>
   );
 }
