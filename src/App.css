@@ -7,3 +7,9 @@
 h1 {
   color: red;
 }
+
+.button {
+  color: aqua;
+  font-weight: bold;
+  font-style: italic;
+}
