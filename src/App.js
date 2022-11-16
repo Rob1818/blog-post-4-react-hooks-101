@@ -9,6 +9,7 @@ import UseMemoEx from "./components/useMemoEx";
 import UseReducerEx from "./components/useReducerEx";
 import UseRefEx from "./components/useRefEx";
 import UseStateEx from "./components/useStateEx";
+import CustomHook from "./components/customHook/customHook";
 
 function App() {
   const theme = { background: "red" };
@@ -43,6 +44,9 @@ function App() {
       </div>
       <div className="box">
         <UseRefEx></UseRefEx>
+      </div>
+      <div className="box">
+        <CustomHook></CustomHook>
       </div>
     </div>
   );
