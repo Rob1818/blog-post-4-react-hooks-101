@@ -1,6 +1,7 @@
-import React from "react";
+import { useMemo } from "react";
 
 function useMemoEx() {
+  const newVariable = useMemo(() => resourceIntensiveFunction(data), [data]);
   return (
     <div>
       <h1>useMemoEx</h1>

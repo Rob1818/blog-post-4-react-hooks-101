@@ -1,4 +1,4 @@
-import React, { useState, createContext } from "react";
+import { useState, createContext } from "react";
 import Log from "./Log";
 import Name from "./Name";
 
