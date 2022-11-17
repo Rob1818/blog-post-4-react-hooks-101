@@ -3,8 +3,6 @@ import "./App.css";
 import UseCallbackEx from "./components/useCallbackEx";
 import UseContextEx from "./components/useContext/useContextEx";
 import UseEffectEx from "./components/useEffectEx";
-import UseImperativeHandleEx from "./components/useImperativeHandleEx";
-import UseLayoutEffectEx from "./components/useLayoutEffectEx";
 import UseMemoEx from "./components/useMemoEx";
 import UseReducerEx from "./components/useReducerEx";
 import UseRefEx from "./components/useRefEx";
@@ -30,12 +28,6 @@ function App() {
         <UseCallbackEx></UseCallbackEx>
       </div>
 
-      <div className="box">
-        <UseImperativeHandleEx></UseImperativeHandleEx>
-      </div>
-      <div className="box">
-        <UseLayoutEffectEx></UseLayoutEffectEx>
-      </div>
       <div className="box">
         <UseMemoEx></UseMemoEx>
       </div>
